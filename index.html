@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/LANDING_PAGE/style.css">
+    <script src="/LANDING_PAGE/index.js" defer></script>
+    <link rel="stylesheet" href="/LANDING_PAGE/Nav/Nav.css">
+    <script src="/LANDING_PAGE/Nav/Nav.js" defer></script>
+    <title>TheTravelFreak</title>
+</head>
+
+<body>
+    <!-- --------------------------------VIDEO BACKGROUND------------------- -->
+    <div class="main">
+        <video src="/LANDING PAGE/Videos/video5.mp4" autoplay muted loop plays-inline class="bgvideo"></video>
+    </div>
+
+    <!-- -------------------------------- HORIZONTAL NAVBAR----------------------------- -->
+    <div class="navbar">
+        <div class="text">
+            <h1>THE WANDER LUST</h1>
+        </div>
+        <div id="menu-btn" onclick="toggleMenu()">
+            <ion-icon name="grid-outline" class="menu"></ion-icon>
+        </div>
+    </div>
+
+    <!-- --------------------------------VERTICAL NAVBAR---------------------------- -->
+    <div class="navigation" id="navigation">
+        <ul>
+            <li class="list active">
+                <a href="/HOME/home.html">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/ABOUT/about.html">
+                    <span class="icon">
+                        <ion-icon name="people-outline"></ion-icon>
+                    </span>
+                    <span class="text">About</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/BLOGS/blog.html">
+                    <span class="icon">
+                        <ion-icon name="bulb-outline"></ion-icon>
+                    </span>
+                    <span class="text">Blogs</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/CONTACT/contact.html">
+                    <span class="icon">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <span class="text">Contact</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="/SUPPORT/support.html">
+                    <span class="icon">
+                        <ion-icon name="construct-outline"></ion-icon>
+                    </span>
+                    <span class="text">Support</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <!-- --------------------------------CONTENT---------------------------- -->
+    <div class="content">
+        <h1 class="big-heading-1">NOT ALL THOSE WHO</h1>
+        <h1 class="big-heading-2">WANDER ARE LOST</h1>
+        <p class="para-1">“In the end, we only regret the chances we didn’t take”.</p>
+        <p>In 2017, I took an exciting and scary step. I decided to turn my travel blog from a hobby into my full-time job. I would’ve had so much regret if I didn’t take this opportunity. Now, each of these travel quotes fit the stories I’ve made.</p>
+        <button class="btn"><a href="/HOME/home.html">EXPLORE</a></button>
+    </div>
+
+    <!-- --------------------------------SOCIAL----------------------------- -->
+    <div class="social">
+        <a href="https://www.instagram.com/prabhatpadhiary6/" target="_blank">
+            <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+        </a>
+        <a href="https://github.com/PrabhatPadhiary" target="_blank">
+            <ion-icon name="logo-github" class="social-icon"></ion-icon>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100006359778627" target="_blank">
+            <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+        </a>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
