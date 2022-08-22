@@ -16,15 +16,7 @@ function reveal(){
     }
 }
 
-myBody = document.getElementsByTagName("body");
-
-let btnText1 = document.querySelector('#btn1');
-let btnText2 = document.querySelector('#btn2');
-let btnText3 = document.querySelector('#btn3');
-let btnText4 = document.querySelector('#btn4');
-let btnText5 = document.querySelector('#btn5');
-let btnText6 = document.querySelector('#btn6');
-
-btnText1.addEventListener('click', ()=>{
-    myBody[0].innerHTML = ""
-})
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+});
